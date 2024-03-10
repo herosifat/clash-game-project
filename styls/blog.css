@@ -1,0 +1,6 @@
+.bgimg{
+   background-image: url('../images/background.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position:center;
+}
