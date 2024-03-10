@@ -6,6 +6,12 @@
 // playSection.classList.remove('hidden');
 
 // }
+function EventbuttonHandelar(){
+    console.log('button press')
+}
+document.addEventListener('keyup',EventbuttonHandelar)
+
+
 function continueGame(){
 const Alphabet = getARandomAlphabet();
 
