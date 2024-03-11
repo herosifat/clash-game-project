@@ -12,6 +12,11 @@ const element = document.getElementById(elementId)
 element.classList.add('bg-red-500')
 }
 
+function removebackgraoundColor(elementId){
+    const element =document.getElementById(elementId);
+    element.classList.remove('bg-red-500')
+}
+
 function getARandomAlphabet (){
     const alphabetString ='abcdefghijklmnopqrstuvwxyz';
     const alphabets =alphabetString.split('');
